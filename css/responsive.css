@@ -1,0 +1,620 @@
+/* lg */
+
+@media (min-width: 1200px) {}
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+}
+
+/* sm */
+
+@media (min-width: 767px) and (max-width: 970px) {
+	.left-sidebar3{
+		display:none;
+	}
+	.liftsideimg{
+		display:none;
+	}
+	.cardbgimg {
+    min-height: 455px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #dcd6d6;
+    float: left;
+    width: 80%;
+    padding: 12px 0px;
+}
+.cardsmallimg {
+    float: left;
+    width: 15%;
+}
+}
+/* xs */
+
+@media (max-width: 767px) {
+	.container {
+		padding: 0;
+	}
+	.col-md-6 {
+		padding: 0;
+	}
+	#slider .girl {
+		height: 150px;
+	}
+	#slider .aligncenter{
+		margin-top: 0;
+	}
+	#slider .carousel-indicators{
+		bottom: 0;
+		margin-bottom: 0px;
+	}
+	.item h1, .item h2  {
+		font-size: 15px;
+	}
+	.item p, .get {
+		font-size: 13px;
+	}
+	.promo-area {
+		padding: 10px 0;
+	}
+	.banner-bg {
+		background-size: 100% 100%;
+		height: 110px;
+	}
+	.Checkout-Proceed {
+			margin-top: 10px;
+			text-align: right;
+			width: 30%;
+			float: right;
+	}
+	.ft-total-bottom {
+			width: 35%;
+			float: left;
+	}
+
+	.bott-part {
+			padding: 5px;
+	}
+	.ft-total-tk {
+			font-size: 15px;
+	}
+	.ft-go-to-checkout {
+		padding:6px 6px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: auto;
+    height: auto;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height:12px;
+    color: #fff;
+    background-color: #ff7d03;
+    border: 1px solid #ff7d03;
+	}
+	.Subtotal-width {
+		width: 26%;
+	}
+	.sutotota {
+    border: 1px solid #eaeaea;
+    margin: 0;
+    width: 100%;
+	}
+	.input-quantity{
+		width:60px;
+	}
+	.cart-table {
+    border: 1px solid #eaeaea;
+    margin: 0px;
+    width: 100%;
+	}
+	.left-sidebar3{
+		display:none;
+	}
+	.liftsideimg{
+		display:none;
+	}
+	.cardsmallimg {
+		display:none;
+	}
+	
+	.header-right{
+   float:none;
+}
+	.sr{
+	float:none;
+	text-align:center;
+	margin-top: 5px;	
+}
+	.header-left {
+    float: none;
+    text-align: center;
+}
+	.footerlogo{
+		padding-top:10px;
+		margin-left:15px;
+		margin-bottom:10px;
+	}
+	.febr h2{
+		font-size:18px;
+		
+	}
+	.charcebox .subs {
+    position: absolute;
+    vertical-align: bottom;
+    background: none repeat scroll 0 0 #ff7f02;
+    border: 0px solid #ff7f02;
+    color: #fff;
+    padding: 11px 25px;
+    text-transform: uppercase;
+    right: 15px;
+    top: 28px;
+}
+	
+.product-image-wrapper {
+    float: left;
+    width: 33.3%;
+    overflow: hidden;
+}
+.brand22 {
+    text-align: left;
+    padding: 0px;
+    width: 100%;
+	margin-left:10px;
+    margin-bottom: 20px;
+}
+.brand22 .li2 {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 22%;
+    display: inline-block;
+}
+.leftimg {
+    display: inline-block;
+    width: 22%;
+    margin-right: 5px;
+}
+.single-widget{
+	margin-bottom:40px;
+}
+.media-lefticon {
+    display: none;
+}
+}
+
+/* XS Portrait */
+@media (min-width: 667px) and (max-width: 736px) {
+	
+.wishlistall {
+       padding: 0;
+    margin: auto;
+    float: none;
+    width: 70%;
+}
+
+.manue {
+    width: 100%;
+    margin: 10px 0px;
+}
+.spd {
+    padding: 20px 0px;
+}
+.product-image-wrapper {
+    float: none;
+    display: inline-block;
+    width: 49%;
+    overflow: hidden;
+}
+.wishlistall2 {
+    margin: auto;
+    padding: 0px;
+    width: 63%;
+}
+.tablu h2 {
+    background: #fe8008;
+    float: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.nav-tabs>li {
+    float: none;
+    margin-bottom: -1px;
+}
+.panel-heading12 h4 {
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 0;
+}
+.caption3 h3.title {
+    padding: 10px 0;
+    font-size: 25px;
+    color: #fff;
+}
+.subtitle {
+    font-size: 20px;
+    color: #f9f9f9;
+}
+.footer-newsletter .footer-newsletter-icon {
+    display: none;
+}
+.footer-newsletter {
+    width: 100%;
+}
+.footer-newsletter .newsletter-body, .footer-newsletter .newsletter-header {
+    margin-bottom: 5px;
+    float: none;
+}
+.footer-newsletter .newsletter-header {
+    margin: 0;
+}
+.footer-newsletter input[type=text] {
+    width: 350px;
+}
+.footer-newsletter article input[type=text]+.more-link, .footer-newsletter input[type=text]+.button, .footer-newsletter input[type=text]+button, .footer-newsletter input[type=text]+input[type=button], .footer-newsletter input[type=text]+input[type=submit], article .footer-newsletter input[type=text]+.more-link {
+    margin: 7px 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+.single-widget{
+	margin-bottom:40px;
+}
+.brand22 .li2 {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 23%;
+    display: inline-block;
+}
+.leftimg {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5px;
+}
+.displ-nio{
+	display:none;
+}
+}
+@media (min-width: 568px) and (max-width: 667px) {
+	.cardbgimg {
+    min-height: auto; 
+    float: none;
+    max-width: 100%;
+}
+	.proima {
+		width: 50%;
+	}
+	.proima .wishlistall1 {
+    width: 50%;
+    margin: auto;
+    padding: 0px;
+}
+	
+	.subsi {
+    color: #fff;
+    bottom: 0px;
+    padding: 40px 18px;
+    position: absolute;
+    z-index: 3;
+    font-size: 18px;
+}
+.wishlistall {
+       padding: 0;
+    margin: auto;
+    float: none;
+    width: 70%;
+}
+
+.manue {
+    width: 100%;
+    margin: 10px 0px;
+}
+.spd {
+    padding: 20px 0px;
+}
+.product-image-wrapper {
+    float: none;
+    display: inline-block;
+    width: 49%;
+    overflow: hidden;
+}
+
+.tablu h2 {
+    background: #fe8008;
+    float: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.nav-tabs>li {
+    float: none;
+    margin-bottom: -1px;
+}
+.panel-heading12 h4 {
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 0;
+}
+.caption3 h3.title {
+    padding: 10px 0;
+    font-size: 25px;
+    color: #fff;
+}
+.subtitle {
+    font-size: 20px;
+    color: #f9f9f9;
+}
+.footer-newsletter .footer-newsletter-icon {
+    display: none;
+}
+.footer-newsletter {
+    width: 100%;
+}
+.footer-newsletter .newsletter-body, .footer-newsletter .newsletter-header {
+    margin-bottom: 5px;
+    float: none;
+}
+.footer-newsletter .newsletter-header {
+    margin: 0;
+}
+.footer-newsletter input[type=text] {
+    width: 350px;
+}
+.footer-newsletter article input[type=text]+.more-link, .footer-newsletter input[type=text]+.button, .footer-newsletter input[type=text]+button, .footer-newsletter input[type=text]+input[type=button], .footer-newsletter input[type=text]+input[type=submit], article .footer-newsletter input[type=text]+.more-link {
+    margin-left: -.333em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.single-widget{
+	margin-bottom:40px;
+}
+.brand22 .li2 {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 23%;
+    display: inline-block;
+}
+.leftimg {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5px;
+}
+.displ-nio{
+	display:none;
+}
+}
+@media (min-width: 480px) and (max-width: 568px) {
+	.cardbgimg {
+    min-height: auto; 
+    float: none;
+    max-width: 100%;
+}
+	.proima {
+		width: 50%;
+	}
+	.wishlistall2 {
+    margin: auto;
+    padding: 0px;
+    width: 55%;
+}
+	.displ-nio{
+	display:none;
+}
+	.leftimg {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5px;
+}
+	
+.wishlistall {
+       padding: 0;
+    margin: auto;
+    float: none;
+    width: 50%;
+}
+
+.manue {
+    width: 100%;
+    margin: 10px 0px;
+}
+.spd {
+    padding: 20px 0px;
+}
+.product-image-wrapper {
+    float: none;
+    display: inline-block;
+    width: 49%;
+    overflow: hidden;
+}
+
+.tablu h2 {
+    background: #fe8008;
+    float: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.nav-tabs>li {
+    float: none;
+    margin-bottom: -1px;
+}
+.panel-heading12 h4 {
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 0;
+}
+.caption3 h3.title {
+    padding: 10px 0;
+    font-size: 25px;
+    color: #fff;
+}
+.subtitle {
+    font-size: 20px;
+    color: #f9f9f9;
+}
+.footer-newsletter .footer-newsletter-icon {
+    display: none;
+}
+.footer-newsletter {
+    width: 100%;
+}
+.footer-newsletter .newsletter-body, .footer-newsletter .newsletter-header {
+    margin-bottom: 5px;
+    float: none;
+}
+.footer-newsletter .newsletter-header {
+    margin: 0;
+}
+.footer-newsletter input[type=text] {
+    width: 350px;
+}
+.footer-newsletter article input[type=text]+.more-link, .footer-newsletter input[type=text]+.button, .footer-newsletter input[type=text]+button, .footer-newsletter input[type=text]+input[type=button], .footer-newsletter input[type=text]+input[type=submit], article .footer-newsletter input[type=text]+.more-link {
+    margin: 7px 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+.single-widget{
+	margin-bottom:40px;
+}
+.brand22 .li2 {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 23%;
+    display: inline-block;
+}
+
+}
+@media (min-width: 300px) and (max-width: 480px) {
+	
+	.cardbgimg {
+    min-height: auto; 
+    float: none;
+   width: 93%;
+}
+	.proima .wishlistall1 {
+		width: 55%;
+		margin: auto;
+		padding: 0px;
+	}
+	.sorter-label {
+		margin-left: 24px;
+	}
+	
+	.wishlistall2 {
+    margin: auto;
+    padding: 0px;
+    width: 60%;
+}
+	.sr{
+	float:none;
+	text-align:center;
+	margin-top: 5px;	
+}
+	.displ-nio{
+	display:none;
+}
+.charcebox .input-text {
+    vertical-align: bottom;
+    border: 0px;
+    width: 100%;
+    color: #777575;
+    padding: 10px 10px;
+    background-color: #fff;
+}
+.charcebox .subs {
+    position: absolute;
+    vertical-align: bottom;
+    background: none repeat scroll 0 0 #ff7f02;
+    border: 0px solid #ff7f02;
+    color: #fff;
+    padding: 11px 21px;
+    text-transform: uppercase;
+    right: 15px;
+    top: 28px;
+}
+	
+.wishlistall {
+    padding: 0;
+   margin: auto;
+    width:88%;
+    float: none;
+}
+
+.manue {
+    width: 100%;
+    margin: 10px 0px;
+}
+.spd {
+    padding: 20px 0px;
+}
+.product-image-wrapper {
+    float: none;
+    width: 100%;
+    overflow: hidden;
+}
+.wishlistall1 {
+    margin: auto;
+    padding: 0px;
+    width: 57%;
+}
+.tablu h2 {
+    background: #fe8008;
+    float: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.nav-tabs>li {
+    float: none;
+    margin-bottom: -1px;
+}
+.panel-heading12 h4 {
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 0;
+}
+.caption3 h3.title {
+    padding: 10px 0;
+    font-size: 25px;
+    color: #fff;
+}
+.subtitle {
+    font-size: 20px;
+    color: #f9f9f9;
+}
+.footer-newsletter .footer-newsletter-icon {
+    display: none;
+}
+.footer-newsletter {
+    width: 100%;
+}
+.footer-newsletter .newsletter-body, .footer-newsletter .newsletter-header {
+    margin-bottom: 5px;
+    float: none;
+}
+.footer-newsletter .newsletter-header {
+    margin: 0;
+}
+.footer-newsletter input[type=text] {
+    width: 272px;
+}
+.footer-newsletter article input[type=text]+.more-link, .footer-newsletter input[type=text]+.button, .footer-newsletter input[type=text]+button, .footer-newsletter input[type=text]+input[type=button], .footer-newsletter input[type=text]+input[type=submit], article .footer-newsletter input[type=text]+.more-link {
+    margin: 7px 0;
+    padding: 14px 20px;
+    border-radius: 10px;
+}
+.single-widget{
+	margin-bottom:40px;
+}
+.brand22 .li2 {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 20%;
+    display: inline-block;
+}
+.brand22 .li2 img {
+    height: 30px;
+}
+}
